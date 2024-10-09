@@ -17,8 +17,8 @@ import Header from "./components/Header";
 const TipCalculator = () => {
   const [amount, setAmount] = useState("");
   const [tipPercentage, setTipPercentage] = useState("");
-  const [tipAmount, setTipAmount] = useState(0);
-  const [totalAmount, setTotalAmount] = useState(0);
+  const [tipAmount, setTipAmount] = useState<any>(0);
+  const [totalAmount, setTotalAmount] = useState<any>(0);
 
   const calculateTip = () => {
     const billAmount = parseFloat(amount);
