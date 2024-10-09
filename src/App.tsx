@@ -88,7 +88,7 @@ const TipCalculator = () => {
                     <SelectValue placeholder="Select tip percentage" />
                   </SelectTrigger>
                   <SelectContent>
-                    {[5, 10, 15, 20, 25, 30].map((percent) => (
+                    {[5, 10, 12, 15, 18, 20, 25, 30].map((percent) => (
                       <SelectItem key={percent} value={percent.toString()}>
                         {percent}%
                       </SelectItem>
