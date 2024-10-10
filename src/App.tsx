@@ -51,7 +51,7 @@ const TipCalculator = () => {
             <div className="relative">
               <label
                 htmlFor="billAmount"
-                className="block text-sm font-medium text-gray-700 mb-2"
+                className="block text-sm font-medium text-gray-700 mb-2 text-left"
               >
                 Bill Amount
               </label>
@@ -72,7 +72,7 @@ const TipCalculator = () => {
             <div className="relative">
               <label
                 htmlFor="tipPercentage"
-                className="block text-sm font-medium text-gray-700 mb-2"
+                className="block text-sm font-medium text-gray-700 mb-2 text-left"
               >
                 Tip Percentage
               </label>
